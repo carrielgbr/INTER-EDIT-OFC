@@ -93,7 +93,6 @@ header{
 ul{
     display: inline;
     list-style: none;
-    justify-content: space-between;
 }
 
 li button{
@@ -102,10 +101,14 @@ li button{
 }
 
 .AppleStore{
+    display: flexbox;
+    margin-top: 50%;
     background-color: transparent;
 }
 
 .PlayStore{
+    margin-left: -10.5% ;
+    margin-top: 55%;
     background-color: transparent;
 }
 /* arrumar apartir daqui*/
@@ -119,6 +122,7 @@ li button{
 
 #bloco03 h1{
     margin-left: 5vh;
+    margin-top: 25vh ;
     font-size: 6vh;
     font-family: 'Atma', cursive;
     font-family: 'Montserrat', sans-serif;
@@ -128,7 +132,7 @@ li button{
 
 .divulgacao img{
     position: relative;
-    margin-top: 40vh;
+    margin-top: 26vh;
     margin-left: 60vh ;
     box-shadow: 2px 9px 5px rgba(0,0,0.3,0.2);
 }
@@ -139,7 +143,10 @@ li button{
     font-family: 'Open Sans', sans-serif;
     position: absolute;
     font-size: 6vh;
-    margin-top: 12%;
+    margin-top: 45vh;
+    margin-left: 5vh;
+    width: 90vh;
+    height: 3vh;
 
 }
 
@@ -151,12 +158,13 @@ li button{
     background: rgb(255,127,0);
     background: linear-gradient(90deg, rgba(255,127,0,1) 35%, rgba(249,207,128,1) 100%);
     width: 100%;
-    height: 800px;
+    height: 135vh;
+    display: flex;  
 }
 
 .titulo{
-    font-size: 60px;
-    left: 35%;
+    margin-left: 35vh ;
+    font-size: 15vh;
     font-family: 'Atma', cursive;
     font-family: 'Montserrat', sans-serif;
     font-family: 'Open Sans', sans-serif;
@@ -164,64 +172,67 @@ li button{
 }
 
 .comentarios{
-    left: 13%;
-    font-size: 30px;    
+    margin-left: 20vh;
+    margin-top: 40vh;
+    font-size: 5vh;    
     font-family: 'Atma', cursive;
     font-family: 'Montserrat', sans-serif;
     font-family: 'Open Sans', sans-serif;
-
+    position: absolute;
 }
 
 
 
 .comentarios ul{
-    display: inline-flex;
+    display: flex;
+    justify-content: center;    
+    width: 150vh;
+    height: auto;
 }
 
 .comentarios ul li{
     display: inline-flex;
-    font-size: 30px;
 }
 
 .comentario01 h1{
-    font-size: 80px;
+    font-size: 8vh;
+
 }
 
 
 .comentario02 h1{
-    font-size: 80px;
+    font-size: 8vh;
 }
 
 
 .comentario03 h1{
-    font-size: 80px;
+    font-size: 8vh;
 }
-
+/*
 .comentario01 p{
-    margin-top: 150px;
-    margin-left: 30px;
 }
 
 
 .comentario02 p{
-    margin-top: 150px;
-    margin-left: 30px;
 }
 
 
 .comentario03 p{
-    margin-top: 150px;
-    margin-left: 30px;
-}
+}*/
 
 .contato{
     background-color: #fff;
     width: 100%;
-    height: 800px;
+    height: 130vh;
+    display: flex;
 }
 
 .info{
-    margin-left: 60%;
+    left: 10vh;
+    position: absolute;
+    align-items: left;
+    width: 100vh;
+
 }
 
 .info h1{
@@ -232,6 +243,7 @@ li button{
 }
 
 .info p{
+    margin-right: 60vh;
     font-size: 30px;    
     font-family: 'Atma', cursive;
     font-family: 'Montserrat', sans-serif;
@@ -240,8 +252,8 @@ li button{
 }
 
 iframe{
-    margin-top: 5%;
-    left: 5%;
+    margin-top: 20vh;
+    margin-left: 105vh;
 }
 
 
@@ -252,6 +264,8 @@ iframe{
 
 footer{
     width: 100%;
-    height: 60px;
-    background-color: #000;
+    height: 6vh;
+
+    background: rgb(255,127,0);
+    background: linear-gradient(90deg, rgba(255,127,0,1) 35%, rgba(249,207,128,1) 100%);;
 }
